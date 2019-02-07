@@ -8,4 +8,6 @@ exports.addFriend = function(request, response) { 
 	
 	
 	data.friends.push(newdata);
+
+	response.render('index',data);
  }
